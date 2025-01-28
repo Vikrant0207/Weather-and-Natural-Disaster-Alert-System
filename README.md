@@ -30,12 +30,11 @@ The interface and the backend is not interconnected. The backend is completely f
 ## API Reference
 
 #### Get all API's
-| API Key | Type     | Reference               |
+| API Key | Required     | Reference               |
 | :-------- | :------- | :------------------------- |
-| `OpenWeather API` | `string` | https://openweathermap.org/api |
-| `Twilio API`| `string` | https://www.twilio.com/en-us/messaging/channels/sms |
+| `OpenWeather API` | `yes` | https://openweathermap.org/api |
+| `Twilio API`| `yes` | https://www.twilio.com/en-us/messaging/channels/sms |
 
-All the above mentioned API's are Required.
 
 <br>
 
