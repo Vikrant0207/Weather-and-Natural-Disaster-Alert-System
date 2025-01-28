@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert!!!</title>
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/milligram/dist/milligram.min.css"
+    />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        font-size: 16px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 1200px;
+        width: 100%;
+      }
+
+      .ad-box {
+        flex: 1;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin: 10px;
+        text-align: center;
+        max-width: 200px;
+      }
+
+      .ad-box img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      div[role='main'] {
+        flex: 2;
+        max-width: 800px;
+        text-align: center;
+      }
+
+      header h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+
+      footer {
+        font-size: 0.9rem;
+        text-align: center;
+      }
+
+      footer p {
+        margin-bottom: 0;
+      }
+
+      #twilio-logo {
+        width: 50px;
+        height: 50px;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 1024px) {
+        .container {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .ad-box {
+          max-width: 100%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        header h1 {
+          font-size: 1.5rem;
+        }
+
+        footer {
+          font-size: 0.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>NATURAL DISASTER ALERT SYSTEM</h1>
+      </header>
+      
+      <style>
+        header h1 {
+          font-size: 3rem; /* Increased font size */
+          margin-bottom: 20px;
+        }
+      </style>
+      
+    <div class="container">
+      <!-- Left Advertisement Section -->
+      <div class="ad-box">
+        <h4>Advertisement</h4>
+        <img src="https://via.placeholder.com/200x300" alt="Left Ad" />
+        <p>Discover more amazing offers!</p>
+      </div>
+
+      <!-- Main Content Section -->
+      <div role="main">
+        <section id="adSection">
+          <h4>Advertisement</h4>
+          <img src="https://via.placeholder.com/728x90" alt="Main Ad" />
+          <p>Check out our sponsor's offers!</p>
+        </section>
+
+        <section>
+          <h3>Add Recipients</h3>
+          <p>
+            Enter one or more phone numbers to send your messages to. Press
+            Enter or click on Add after each number. All numbers have to be in
+            the
+            <a
+              href="https://www.twilio.com/docs/glossary/what-e164"
+              target="_blank"
+              >E.164 format</a
+            >.
+          </p>
+          <form id="recipientForm">
+            <fieldset>
+              <label for="newRecipientInput">New Recipient Phone Number:</label>
+              <input type="tel" id="newRecipientInput" required />
+              <input class="button-primary" type="submit" value="Add" />
+            </fieldset>
+          </form>
+          <p><strong>Current list of recipients:</strong></p>
+          <ul id="recipients"></ul>
+        </section>
+        <section>
+          <h3>Send your notification</h3>
+          <form id="sendNotificationForm">
+            <fieldset>
+              <label for="passcodeInput">Application Passcode</label>
+              <input name="passcode" id="passcodeInput" required />
+              <label for="messageInput">Write your message:</label>
+              <textarea name="message" id="messageInput" required></textarea>
+              <input class="button-primary" type="submit" value="Send" />
+            </fieldset>
+          </form>
+        </section>
+        <section>
+          <h3>Result</h3>
+          <p id="resultSection"></p>
+        </section>
+      </div>
+
+      <!-- Right Advertisement Section -->
+      <div class="ad-box">
+        <h4>Advertisement</h4>
+        <img src="https://via.placeholder.com/200x300" alt="Right Ad" />
+        <p>Special deals await you!</p>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Thank you for using our service.
+      </p>
+    </footer>
+    <script src="alert system.js"></script>
+  </body>
+</html>
