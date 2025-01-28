@@ -37,7 +37,8 @@ Ignore all the files except `alert system.py`. The other files may or may not wo
 
 ## Personal Message
 
-# Hello Coders !!!
+### Hello Coders !!!
+<br>
 
 This is a software based program which is made to send alerts based on weather forecasts.
 <br>
