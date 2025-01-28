@@ -28,3 +28,23 @@ All the above mentioned API's are Required.
 
 - [@Vikrant0207](https://github.com/Vikrant0207)
 
+
+<br>
+
+## Personal Note
+
+Ignore all the files except `alert system.py`. The other files may or may not work. But the main backend file is `alert system.py`. Just fill up the api key and other required details yourself after setting up. Make sure to enter the details in place of `NA` otherwise the code won't work.
+
+## Personal Message
+
+# Hello Coders !!!
+
+This is a software based program which is made to send alerts based on weather forecasts.
+<br>
+
+You are free to make changes as you wish to improve this project. If you clone this repository to your local then u might have to make some changes in the second paragrapgh in the python program file. And then you are all set to go...
+<br>
+
+Keep Breathing, Keep Coding !!
+<br>
+Good Luck 👍 
